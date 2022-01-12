@@ -12,7 +12,7 @@ li, a, button {
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
-    text-decoration: none;
+    text-decoration: navy;
 }
 
 header {
@@ -25,6 +25,9 @@ header {
 .logo {
     cursor: pointer;
     margin-right: auto;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    
 }
 
 .nav_links {
