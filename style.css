@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-* {
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Noto Sans HK', sans-serif;
+    background: #fff;
+}
+
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #24252a;
-}
+} */
 
 li, a, button {
     font-family: "Montserrat", sans-serif;
@@ -59,4 +68,18 @@ button {
 
 button:hover {
     background-color: rgba(0, 136, 169, 1);
+}
+
+.slider {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.slider .owl-item.active.center .slider-card {
+    transform: scale(1.15);
+    opacity: 1;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #e74c3c, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: #fff;
 }
